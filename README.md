@@ -13,4 +13,4 @@ Este GitHub contiene diferentes ficheros:
 
 3.- La carpeta Resultados contiene varios ficheros RData, algunos ya nombrados anteriormente. Los archivos "datosfinalesN500-burnin50.RData" y "Modelomultivariante.RData" contienen los resultados de la selección de variables y del modelo multivariante, respectivamente. No obstante, también contiene otros elementos claves para el desarrollo de los archivos .R nombrados en los puntos 1 y 2. Concretamente, tenemos la matriz de diseño guardada en "matriz_diseño.RData", el banco de datos final depurado "datos_finales.RData" y el archivo "matrizdelmodelo.RData" que corresponde con el banco de datos generado que es una de las entradas para el modelo generar el algoritmo Gibbs Sampling.
 
-4.-
+4.- El archivo Descriptivo.Rmd contiene el código que genera las gráficas del capítulo 4. Diseño y análisis descriptivo de los datos. 
