@@ -1,4 +1,4 @@
-# TFM-Andrea
+# Selección de variables en modelo de riesgos competitivos
 INTRODUCCIÓN
 
 Hola,
