@@ -7,4 +7,10 @@ Si tiene alguna duda, no dude en contactar conmigo mediante el correo ancruzhe@a
 
 Este GitHub contiene diferentes ficheros:
 
-1.- La carpeta Selección de variables contiene el script y la library the code used to run the different models. However, I have to warn you that these models may take up to 4 days to run (using a I7 7400K processor with 3 cores running 3 chains simultaneously and 16GB of RAM). In case you do not want to run the models yourself, you can download the RData files from the link included in the previous section.
+1.- La carpeta Selección de variables contiene dos archivos: script.cr.R que contiene la implementación del algoritmo de Gibbs Sampling para el muestreo de diferentes modelos y otro archivo llamado library.cr.R, que contiene 7 funciones para poder realizar los cálculos necesarios para que el algoritmo Gibbs Sampling desarrollado en el script.cr.R funcione correctamente. Bajo las condiciones establecidas en el documento pdf y en el script.cr.R, el código tardó 5 días en mostrar resultados. Si prefiere no ejecutar el script.cr.R, la carpeta Resultados contiene el archivo RData con el resultados llamado: "datosfinalesN500-burnin50.RData" correspondiente al resultado del script.cr.R.
+
+2.- La carpeta Modelo Multivariante contiene el archivo de R llamado MJB_multivariante.R que contiene el modelo multivariante. Este modelo no tardó mucho, alrededor de 1-2 horas. Aun así, la carpeta Resultados contiene el archivo RData correspondiente al resultado del modelo multivariante llamado: "Modelomultivariante.RData".
+
+3.- La carpeta Resultados contiene varios ficheros RData, algunos ya nombrados anteriormente. Los archivos "datosfinalesN500-burnin50.RData" y "Modelomultivariante.RData" contienen los resultados de la selección de variables y del modelo multivariante, respectivamente. No obstante, también contiene otros elementos claves para el desarrollo de los archivos .R nombrados en los puntos 1 y 2. Concretamente, tenemos la matriz de diseño guardada en "matriz_diseño.RData", el banco de datos final depurado "datos_finales.RData".
+
+4.-
