@@ -17,3 +17,5 @@ El contenido de este GitHub es el siguiente:
 5.- El RMarkdown llamado Descriptivo.Rmd contiene el código que genera las figuras que se muestran a lo largo del trabajo, y quedan guardadas en la carpeta Figuras.
 
 6.- La carpeta Figuras contiene todas las figuras incluidas en el trabajo.
+
+7.- Si se tienen los datos, se deberán crear dos carpetas diferentes: Datos, en el que se guardan los datos proporcionados por el Instituto de Investigación Sanitaria (INCLIVA) y Archivos_RData, en el que se guardan todos los archivos generados en el RMarkdown depuracion_datos.Rmd junto con un dataframe que sale del script de R: script.cr.R.
